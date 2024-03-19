@@ -1,6 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const Article = require("./models/article");
+const Article = require("./models/Article.js");
 const app = express();
 
 const mongoDbUrl =
